@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans|Raleway|Ubuntu&display=swap');
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+}
+
+.weather-cards {
+  text-align: center;
+}
