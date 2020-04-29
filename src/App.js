@@ -170,7 +170,7 @@ class App extends React.Component {
     const city = e.target.elements.city.value;
 
     if(city) {
-      const api_call = await fetch(`http://api.weatherstack.com/current?access_key=${api_key}&query=${city}`);
+      const api_call = await fetch(`https://api.weatherstack.com/current?access_key=${api_key}&query=${city}`);
       const response = await api_call.json();
 
       console.log(response);
